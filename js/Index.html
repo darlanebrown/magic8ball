@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html en>
+<head>
+  <title>Magic 8 Ball</title>
+  <meta charset="UTF=8">
+  <style type="text/css">
+    * {
+      font-family: sans-serif;
+    }
+    body {
+      background-color: rgb(163, 37, 58);
+
+    #content {
+      background: white;
+      width: 400px;
+      margin: auto;
+      text-align: center;
+      padding: 25px;
+      border-radius: 5px;
+    }
+    #eightball {
+      width: 400px;
+      height: 400px;
+      background: black;
+      color: white;
+      margin: auto;
+      margin-top: 10px;
+      border-radius: 100%;
+      display: grid;
+      justify-content: center;
+      align-items: center;
+    }
+    #answer {
+      font-size: 25px;
+      
+    }
+    </style>
+</head>
+
+ <body>
+  
+   <div id="content">
+  <h1>Holla Magic 8 ball</h1>
+  <h2>Type your question below</h2>
+  <textarea id="questionArea" cols="40" rows="4"></textarea>
+  <br>
+  <button>Shake!</button>
+  <div id="eightBall">
+      <p id="answer">You go girl!</p>
+  
+  <button>ask</button>
+  <input id="userinput" type="input"/>
+  <input id="button" type="button" value="submit" onclick="response();"/>
+  <p id="response"></p>
+</div>
+</div>
+  
+
+
+</main>
+
+      <script src="script.js"></script>
+      
+</body>
+
+
+
+
+
+
+
+
+</html>
